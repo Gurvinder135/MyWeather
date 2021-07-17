@@ -6,7 +6,7 @@ import {domCreate} from "./domCreate.js";
         e.preventDefault();
         console.log(searchbox)
        try{ 
-           let url=`http://api.openweathermap.org/data/2.5/weather?q=${searchbox}&APPID=87be5755cae28583e636c3c18dbe23b6&units=metric`
+           let url=`https://api.openweathermap.org/data/2.5/weather?q=${searchbox}&APPID=87be5755cae28583e636c3c18dbe23b6&units=metric`
         let fetchApi=await fetch(url,{mode:"cors"});
         console.log(fetchApi);
         document.querySelector(".mid").textContent="";

@@ -13,9 +13,8 @@
 .main{
     display: flex;
     flex-direction: row;
-    width: 50%;
-    margin: auto;
-    padding: 9vh 15.5vh;
+    justify-content: center;
+    padding: 7vh;
 }
 .img>img{
 width: 10vh;
